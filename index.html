@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Photographe</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="accueil">
+    <!-- -----------Accueil et Navbar--------------- -->
+
+    <div class="navbar">
+      <div class="contItems">
+        <a href="#accueil" class="items">Accueil</a>
+        <a href="#sectionTxtImg" class="items">A propos</a>
+        <a href="#creations" class="items">Créations</a>
+        <a href="#contact" class="items">Contact</a>
+      </div>
+      <img src="ressources/menu.svg" alt="logo menu" class="logoImg" />
+    </div>
+
+    <!-- ----------------------ACCUEIL------------------------ -->
+
+    <div class="home">
+      <h1>Découvrez mes créations</h1>
+      <p class="subtitleP">
+        Lorem ipsum dolor sit amet, consectetur adipisicing.
+      </p>
+    </div>
+
+    <!-- --------------SECTION1-TEXT&IMAGES------------------ -->
+
+    <h2 class="titleSec1">Lorem ipsum dolor sit amet.</h2>
+
+    <section id="sectionTxtImg" class="txtImg">
+      <div class="flexContainerSection1">
+        <div class="contImgSec1">
+          <img src="ressources/imgNature.jpg" alt="img nature" />
+        </div>
+
+        <div class="contTxtSec1">
+          <h2>Lorem, ipsum.</h2>
+
+          <p class="subtitleSec1">Lorem ipsum dolor sit amet.</p>
+          <p class="txtSec1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro
+            omnis perferendis ullam laborum, alias id, doloribus sequi atque
+            facilis soluta, tempora ducimus ipsa. Incidunt ipsum ducimus animi
+            ab! Perspiciatis ab illum, quia totam voluptatibus enim debitis
+            natus culpa temporibus, rem provident laborum sit dolores dolore qui
+            nesciunt veritatis error pariatur.
+          </p>
+          <hr />
+          <p class="txtSec1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro
+            omnis perferendis ullam laborum, alias id, doloribus sequi atque
+            facilis soluta, tempora ducimus ipsa. Incidunt ipsum ducimus animi
+            ab! Perspiciatis ab illum, quia totam voluptatibus enim debitis
+            natus culpa temporibus, rem provident laborum sit dolores dolore qui
+            nesciunt veritatis error pariatur.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------SECTION-PORTFOLIO---------------------- -->
+
+    <h2 class="titlePortfolio">Lorem ipsum dolor sit amet.</h2>
+
+    <hr class="dividerPort" />
+
+    <section id="creations" class="portfolioImg">
+      <div class="flexImgPortfolio">
+        <div class="imgPort">
+          <img src="ressources/portfolio/imgP1.jpg" alt="img nature 1 " />
+        </div>
+        <div class="imgPort">
+          <img src="ressources/portfolio/imgP2.jpg" alt="img nature 2 " />
+        </div>
+        <div class="imgPort">
+          <img src="ressources/portfolio/imgP3.jpg" alt="img nature 3 " />
+        </div>
+        <div class="imgPort">
+          <img src="ressources/portfolio/imgP4.jpg" alt="img nature 4 " />
+        </div>
+        <div class="imgPort">
+          <img src="ressources/portfolio/imgP5.jpg" alt="img nature 5 " />
+        </div>
+        <div class="imgPort">
+          <img src="ressources/portfolio/imgP6.jpg" alt="img nature 6 " />
+        </div>
+        <div class="imgPort">
+          <img src="ressources/portfolio/imgP7.jpg" alt="img nature 7 " />
+        </div>
+        <div class="imgPort">
+          <img src="ressources/portfolio/imgP8.jpg" alt="img nature 8 " />
+        </div>
+        <div class="imgPort">
+          <img src="ressources/portfolio/imgP9.jpg" alt="img nature 9 " />
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------SECTION-PARALLAX-------------------- -->
+
+    <div class="paraScroll">
+      <h3>nature</h3>
+    </div>
+
+    <!-- -------------------SECTION-FORMS---------------------------- -->
+
+    <h2 class="titleForm">Rentrons en contact !</h2>
+
+    <section class="forms">
+      <form id="contact">
+        <div class="row">
+          <label for="prenom">Prénom</label>
+          <input
+            type="text"
+            id="prenom"
+            name="prenom"
+            placeholder="Ton prenom ..."
+          />
+        </div>
+
+        <div class="row">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" placeholder="Ton nom ..." />
+        </div>
+
+        <div class="row">
+          <label for="nmsg">Message</label>
+          <textarea
+            id="msg"
+            name="message"
+            placeholder="Ton message ..."
+          ></textarea>
+        </div>
+
+        <div class="row">
+          <input type="submit" class="subBtn" value="submit" />
+        </div>
+      </form>
+    </section>
+
+    <!-- --------------------FOOTER-------------------- -->
+
+    <footer>
+      <p>Tout droit réservés &#169;</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
